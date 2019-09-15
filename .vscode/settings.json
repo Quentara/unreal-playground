@@ -1,0 +1,8 @@
+{
+	"files.exclude": {
+		"/Users/daniel/repos/unreal/CppPlayground/Saved": true,
+		"/Users/daniel/repos/unreal/CppPlayground/Content": true,
+		"/Users/daniel/repos/unreal/CppPlayground/.vscode": true,
+		"/Users/daniel/repos/unreal/CppPlayground/Intermediate": true
+	}
+}

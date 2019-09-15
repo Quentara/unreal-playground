@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "CppPlayground (Debug)",
+			"request": "launch",
+			"preLaunchTask": "CppPlayground Mac Debug Build",
+			"program": "/Users/daniel/repos/unreal/CppPlayground/Binaries/Mac/CppPlayground-Mac-Debug.app/Contents/MacOS/CppPlayground-Mac-Debug",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "CppPlayground (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "CppPlayground Mac DebugGame Build",
+			"program": "/Users/daniel/repos/unreal/CppPlayground/Binaries/Mac/CppPlayground-Mac-DebugGame.app/Contents/MacOS/CppPlayground-Mac-DebugGame",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "CppPlayground (Development)",
+			"request": "launch",
+			"preLaunchTask": "CppPlayground Mac Development Build",
+			"program": "/Users/daniel/repos/unreal/CppPlayground/Binaries/Mac/CppPlayground.app/Contents/MacOS/CppPlayground",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "CppPlayground (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "CppPlayground Mac Shipping Build",
+			"program": "/Users/daniel/repos/unreal/CppPlayground/Binaries/Mac/CppPlayground-Mac-Shipping.app/Contents/MacOS/CppPlayground-Mac-Shipping",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "CppPlayground (Test)",
+			"request": "launch",
+			"preLaunchTask": "CppPlayground Mac Test Build",
+			"program": "/Users/daniel/repos/unreal/CppPlayground/Binaries/Mac/CppPlayground-Mac-Test.app/Contents/MacOS/CppPlayground-Mac-Test",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "CppPlaygroundEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "CppPlaygroundEditor Mac Debug Build",
+			"program": "/Users/Shared/Epic Games/UE_4.22/Engine/Binaries/Mac/UE4Editor-Mac-Debug.app/Contents/MacOS/UE4Editor-Mac-Debug",
+			"args": [
+				"/Users/daniel/repos/unreal/CppPlayground/CppPlayground.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "CppPlaygroundEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "CppPlaygroundEditor Mac DebugGame Build",
+			"program": "/Users/Shared/Epic Games/UE_4.22/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/daniel/repos/unreal/CppPlayground/CppPlayground.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "CppPlaygroundEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "CppPlaygroundEditor Mac Development Build",
+			"program": "/Users/Shared/Epic Games/UE_4.22/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/daniel/repos/unreal/CppPlayground/CppPlayground.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/Users/Shared/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/Users/daniel/repos/unreal/CppPlayground/CppPlayground.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/Users/Shared/Epic Games/UE_4.22"
+		}
+	]
+}
